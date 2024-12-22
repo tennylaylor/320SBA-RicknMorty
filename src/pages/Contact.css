@@ -1,0 +1,30 @@
+.contact {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+  color: #666;
+}
