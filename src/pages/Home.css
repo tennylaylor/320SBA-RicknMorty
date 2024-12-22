@@ -1,0 +1,51 @@
+.home {
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 60px;
+}
+
+.home h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 24px;
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 0 1 200px; /* Makes boxes smaller */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.section:hover {
+  transform: translateY(-3px);
+}
+
+.section h2 {
+  color: #2196f3;
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+}
+
+.section p {
+  font-size: 14px;
+  color: #666;
+}
+
+.selected-content {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
